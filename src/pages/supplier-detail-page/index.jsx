@@ -20,6 +20,7 @@ const SupplierDetail = () => {
 
     useEffect(() => {
         getSupplier();
+        // eslint-disable-next-line
     }, [])
 
     return (
