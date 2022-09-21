@@ -1,44 +1,26 @@
-# PYP Weekend Task - React Router assignment
+# Rental Demo Website
 
-You have 4 pages.
+## 🔗 [**Live Demo**](https://glistening-malabi-825f7a.netlify.app/)
 
-HomePage 
-You are able to go to other pages via the navbar on the homepage.
+## How to start?
 
+```
+npm install
+```
 
-AddSupplier
-You are going to add  new supplier with axios library. You cannot add an empty supplier.
+```
+npm start
+```
 
+## How to run?
 
-SupplierList
-There must be at least 5 columns in the table. When you click on the row in the table, it go to the supplier-detail page.
+Open http://localhost:3000 with your browser to see the result.
 
-SupplierDetail
-At least 5 properties of the supplier will appear on the page. There must be a back button on the screen. When the user clicks this button, user go to the previous page. ( You should research the topic named "react router back to previous page")
+## Used technologies:
 
-Notes:
+- Frontend: React Js -> Axios, React Router v-6, SCSS, Tailwind CSS, Ant Design
+- Git: GitHub
+- Hosting: Netlify
 
-API Link: 
-https://northwind.vercel.app/api/suppliers
-
-
-Bonus:
-* If you want, you can also delete supplier on the table. ( with DELETE REQUEST)
-
-* Nice design
-
-
-
-## Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-### Available Scripts
-
-In the project directory, you can run:
-
-#### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
+## API
+- https://northwind.vercel.app/api/suppliers
